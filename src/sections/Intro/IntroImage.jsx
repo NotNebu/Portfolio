@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profilePic from "../../assets/profile.webp";
+import profilePic from "../../assets/profile.png";
 
 const IntroImage = () => (
     <motion.img

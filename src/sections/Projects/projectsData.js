@@ -39,7 +39,18 @@ export const finishedProjects = [
         tech: ["C#", ".NET", "Blazor", "Java", "gRPC", "REST", "PostgreSQL", "JSON Web Token", "API Gateway"],
         repoLink: "https://github.com/HiroshikunDK/VIA-SEP3-GRP3-Biludljening",
     },
-];
+    {
+        title: "React – Pokédex",
+        description:
+            "An interactive Pokédex built with React and Vite, featuring advanced functionality such as Pokémon search, type-based filtering, dark mode toggle, responsive design. Includes a detailed Pokémon view. The UI is enhanced with TailwindCSS.",
+        image: project8,
+        tech: ["React", "TailwindCSS", "Axios", "Vite"],
+        repoLink: "https://github.com/NotNebu/WEB2_Pokedex",
+        links: [
+            { label: "Live Demo", url: "https://web2-pokedex.vercel.app/" },
+        ]
+    }
+]
 
 export const inDevelopmentProjects = [
     {
@@ -64,13 +75,6 @@ export const inDevelopmentProjects = [
         tech: ["C#", "Clean Architecture", "SQLite"],
         races: ["Human", "Orc", "Dwarf", "Halfling", "Elf"],
         classes: ["Warrior", "Mage", "Archer", "Druid", "Paladin", "Rogue", "Warlock"],
-    },
-    {
-        title: "React – Pokédex",
-        description:
-            "An interactive Pokédex built with React and Vite, featuring advanced functionality such as Pokémon search, type-based filtering, dark mode toggle, responsive design. Includes a detailed Pokémon view. The UI is enhanced with TailwindCSS.",
-        image: project8,
-        tech: ["React", "TailwindCSS", "Axios", "Vite"],
     },
     {
         title: "GroWheat – 4th Semester Project",

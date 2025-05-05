@@ -5,8 +5,18 @@ import ProjectRaces from "./ProjectRaces";
 import ProjectClasses from "./ProjectClasses";
 import ProjectTechStack from "./ProjectTechStack";
 import ProjectRepoLink from "./ProjectRepoLink";
+import ProjectLinks from "./ProjectLinks";
 
-const ProjectCard = ({ title, description, image, tech, repoLink, races = [], classes = [] }) => {
+const ProjectCard = ({
+                         title,
+                         description,
+                         image,
+                         tech,
+                         repoLink,
+                         links = [],
+                         races = [],
+                         classes = [],
+                     }) => {
     return (
         <motion.div
             className="bg-gray-900 text-white rounded-lg shadow-lg p-4 transition transform hover:scale-105"
@@ -19,6 +29,7 @@ const ProjectCard = ({ title, description, image, tech, repoLink, races = [], cl
             <ProjectClasses classes={classes} />
             <ProjectTechStack tech={tech} />
             <ProjectRepoLink repoLink={repoLink} />
+            <ProjectLinks links={links} />
         </motion.div>
     );
 };
