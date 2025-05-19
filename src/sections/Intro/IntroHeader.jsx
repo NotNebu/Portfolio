@@ -15,7 +15,7 @@ const IntroHeader = () => (
                     "Hi, I'm Alexander",
                     "A Software Engineer Student",
                     "A C# Developer",
-                    "An AI Enthusiast",
+                    "An Automation Enthusiast",
                     "A Writer",
                 ]}
                 loop={0}
