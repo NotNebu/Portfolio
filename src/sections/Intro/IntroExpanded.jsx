@@ -16,7 +16,7 @@ const IntroExpanded = () => (
                 <span className="text-blue-400"> bot development</span>, where I honed my skills in C# programming, automation, and problem-solving.
             </p>
             <p className="mt-3">
-                Now, I focus on expanding my expertise in <span className="text-blue-400">software architecture</span>, AI-driven solutions, and scalable development.
+                Now, I focus on expanding my expertise in <span className="text-blue-400">software architecture</span>, Automated-driven solutions, and scalable development.
             </p>
             <p className="mt-3">
                 Beyond coding, I’m also a <span className="text-blue-400">writer</span>, currently working on a seven-book series titled <span className="text-blue-400">Atyas' Saga</span>. In addition, I work as an <span className="text-blue-400">IT Supporter</span>,
