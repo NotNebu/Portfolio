@@ -2,6 +2,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const NavbarToggle = ({ isOpen, setIsOpen }) => (
     <button
+        aria-label="Toggle menu"
         className="md:hidden text-white focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
     >
