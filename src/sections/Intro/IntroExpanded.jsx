@@ -11,19 +11,17 @@ const IntroExpanded = () => (
             transition={{ duration: 0.5 }}
         >
             <p className="mt-3">
-                My journey in tech began with a love for <span className="text-blue-400">gaming</span>, leading me into
-                <span className="text-blue-400"> World of Warcraft server emulation</span>. This fascination with game mechanics evolved into
-                <span className="text-blue-400"> bot development</span>, where I honed my skills in C# programming, automation, and problem-solving.
+                My interest in technology began through <span className="text-blue-400">gaming</span>, which gradually sparked a desire to understand the systems behind it.
+                I became interested in the technical side of <span className="text-blue-400">World of Warcraft</span>, which led me to explore how automation could be used in software.</p>
+            <p className="mt-3">
+                Today, my focus lies in developing a deeper understanding of <span className="text-blue-400">software architecture</span>, <span className="text-blue-400">automated systems</span>, and structured development workflows.
+                I am especially interested in how thoughtful design and maintainable code contribute to scalable applications.
             </p>
             <p className="mt-3">
-                Now, I focus on expanding my expertise in <span className="text-blue-400">software architecture</span>, Automated-driven solutions, and scalable development.
-            </p>
+                Alongside my academic work, I’m also a <span className="text-blue-400">writer</span> and currently working on a long-form fantasy project titled <span className="text-blue-400">Atyas' Saga</span>.
+                In my free time, I enjoy helping others with <span className="text-blue-400">IT-related challenges</span> from troubleshooting issues to assembling computers. </p>
             <p className="mt-3">
-                Beyond coding, I’m also a <span className="text-blue-400">writer</span>, currently working on a seven-book series titled <span className="text-blue-400">Atyas' Saga</span>. In addition, I work as an <span className="text-blue-400">IT Supporter</span>,
-                troubleshooting systems, assembling computers, and handling diverse technical challenges.
-            </p>
-            <p className="mt-3">
-                With every project, I strive to <span className="text-blue-400">turn challenges into opportunities</span>, continuously refining my skills and pushing the limits of what I can build.
+                I’m eager to contribute to real-world development projects, collaborate with experienced teams, and continuously grow my technical and professional skillset.
             </p>
         </motion.div>
     </AnimatePresence>
